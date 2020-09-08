@@ -41,7 +41,8 @@
 				"developer": "",
 				"publisher": "",
 				"series": "Examples",
-				"series_index": "1"
+				"series_index": "1",
+				"aka": ["foo", "bar"]
 			},
 			"comment": "This should be ignored, it's just here to put comments because you can't do //comment in JSON"
 		},

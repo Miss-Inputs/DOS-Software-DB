@@ -108,9 +108,10 @@
 				"max_players": 1,
 				"release_date": "1986",
 				"developer": "Keypunch Software",
-				"publisher": "Apogee Software"
+				"publisher": "Apogee Software",
+				"aka": ["Diamond Digger", "Gold Miner"]
 			},
-			"comment": "Part of Adventure Fun-Pak; aka Diamond Digger, Gold Miner"
+			"comment": "Part of Adventure Fun-Pak"
 		}
 	}
 }
