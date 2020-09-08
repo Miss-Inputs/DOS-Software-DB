@@ -1,6 +1,6 @@
 {
 	"version": "v1.0",
-	games: {
+	"games": {
 		"Jazz Jackrabbit (shareware)": {
 			"detection": {
 				"exe_name": "jazz.exe"
@@ -20,7 +20,7 @@
 					"gus": true,
 					"sb16": true,
 					"internal_speaker": true
-			}
+			},
 			"info": {
 				"type": "game_demo",
 				"genre": "Platform",
@@ -33,7 +33,6 @@
 				"series": "Jazz Jackrabbit",
 				"series_index": "1",
 			}
-			"comment": "",
 		}
 	}
 }

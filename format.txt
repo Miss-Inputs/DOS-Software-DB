@@ -40,7 +40,7 @@
 				"series": "Examples",
 				"series_index": "1",
 			}
-			"comment": "",
+			"comment": "This should be ignored, it's just here to put comments because you can't do //comment in JSON",
 		},
 		"clone": {
 			"parent": "name"
