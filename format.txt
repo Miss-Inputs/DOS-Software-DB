@@ -4,7 +4,7 @@
 		"name": {
 			"detection": {
 				"exe_name": "exe.exe"
-			}
+			},
 			"compat": {
 				"for_xt": false,
 				"min_cpu": "386, 486, pentium, etc",
