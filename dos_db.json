@@ -1,0 +1,39 @@
+{
+	"version": "v1.0",
+	games: {
+		"Jazz Jackrabbit (shareware)": {
+			"detection": {
+				"exe_name": "jazz.exe"
+			}
+			"compat": {
+				"min_cpu": "386",
+				"recommended_cpu": "486",
+				"max_cpu": "pentium",
+				"min_graphics": "vga",
+				"min_dos": 5,
+				"controllers": {
+					"joystick": true,
+					"keyboard_required": true,
+					"gravis_gamepad": true,
+				}
+				"sound": {
+					"gus": true,
+					"sb16": true,
+					"internal_speaker": true
+			}
+			"info": {
+				"type": "game_demo",
+				"genre": "Platform",
+				"subgenre": "Run & Gun",
+				"min_players": 1,
+				"max_players": 1,
+				"release_date": "1994-07-30",
+				"developer": "Epic Games",
+				"publisher": "Epic Games",
+				"series": "Jazz Jackrabbit",
+				"series_index": "1",
+			}
+			"comment": "",
+		}
+	}
+}

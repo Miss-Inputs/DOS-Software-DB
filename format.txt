@@ -1,0 +1,49 @@
+{
+	"version": "v1.0",
+	games: {
+		"name": {
+			"detection": {
+				"exe_name": "exe.exe"
+			}
+			"compat": {
+				"for_xt": false,
+				"min_cpu": "386, 486, pentium, etc",
+				"recommended_cpu": "",
+				"max_cpu": "",
+				"min_graphics": "cga, hercules, ega, vga, svga",
+				"recommended_graphics": "",
+				"max_graphics": "",
+				"min_dos": 5,
+				"max_dos": 6.22
+				"controllers": {
+					"joystick": true,
+					"keyboard_required": true,
+					"gravis_gamepad": true,
+					"thrustmaster": true,
+				}
+				"sound": {
+					"gus": true,
+					"sb16": true,
+					"internal_speaker": true,
+					"disney": true,
+					"mt32": true,
+			}
+			"info": {
+				"type": "game, game_demo, app, app_demo, demoscene, etc",
+				"genre": "",
+				"subgenre": "",
+				"min_players": 1,
+				"max_players": 1,
+				"release_date": "2020-09-08",
+				"developer": "",
+				"publisher": "",
+				"series": "Examples",
+				"series_index": "1",
+			}
+			"comment": "",
+		},
+		"clone": {
+			"parent": "name"
+		}
+	}
+}
