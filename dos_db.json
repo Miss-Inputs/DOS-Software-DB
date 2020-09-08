@@ -44,6 +44,7 @@
 				"min_dos": 3,
 				"min_ram_kb": 512,
 				"min_graphics": "ega",
+				"recommended_graphics": "vga",
 				"input": {
 					"joystick": true,
 					"keyboard_required": true,
@@ -112,6 +113,37 @@
 				"aka": ["Diamond Digger", "Gold Miner"]
 			},
 			"comment": "Part of Adventure Fun-Pak"
+		},
+		"Major Stryker": {
+			"detection": {
+				"exe_name": "stryker.exe"
+			},
+			"compat": {
+				"min_cpu": "286",
+				"recommended_cpu": "386",
+				"min_graphics": "ega",
+				"min_ram_kb": 640,
+				"min_dos": 3,
+				"input": {
+					"joystick": true,
+					"keyboard_required": true
+				},
+				"sound": {
+					"adlib": true,
+					"sb16": true,
+					"internal_speaker": true
+				}
+			},
+			"info": {
+				"type": "game",
+				"genre": "Shooter",
+				"subgenre": "Vertical",
+				"min_players": 1,
+				"max_players": 1,
+				"release_date": "1993-01-31",
+				"developer": "Apogee Software",
+				"publisher": "Apogee Software"
+			}
 		}
 	}
 }
