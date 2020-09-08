@@ -41,7 +41,6 @@
 				"app_name": "spfix63.exe"
 			},
 			"compat": {
-				"min_cpu": "8088",
 				"min_dos": 3,
 				"min_ram_kb": 512,
 				"min_graphics": "ega",
@@ -68,6 +67,50 @@
 				"release_date": "1991"
 			},
 			"comment": "Original release did not run at correct speed on 286 or higher"
+		},
+		"8088 Domination": {
+			"detection": {
+				"exe_name": "8088dom.bat"
+			},
+			"compat": {
+				"min_graphics": "cga",
+				"max_graphics": "cga",
+				"sound": {
+					"sb16": true
+				}
+			},
+			"info": {
+				"type": "demoscene",
+				"release_date": "2014-06",
+				"developer": "Trixter",
+				"publisher": "Hornet"
+			}
+		},
+		"Raiders of the Forbidden Mine": {
+			"detection": {
+				"exe_name": "raiders.exe"
+			},
+			"compat": {
+				"for_xt": true,
+				"min_graphics": "cga",
+				"input": {
+					"keyboard_required": true
+				},
+				"sound": {
+					"internal_speaker": true
+				}
+			},
+			"info": {
+				"type": "game",
+				"genre": "Maze",
+				"subgenre": "Digging",
+				"min_players": 1,
+				"max_players": 1,
+				"release_date": "1986",
+				"developer": "Keypunch Software",
+				"publisher": "Apogee Software"
+			},
+			"comment": "Part of Adventure Fun-Pak; aka Diamond Digger, Gold Miner"
 		}
 	}
 }
