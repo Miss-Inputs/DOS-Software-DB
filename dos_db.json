@@ -11,7 +11,8 @@
 				"max_cpu": "pentium",
 				"min_graphics": "vga",
 				"min_dos": 5,
-				"controllers": {
+				"min_ram_kb": 4096,
+				"input": {
 					"joystick": true,
 					"keyboard_required": true,
 					"gravis_gamepad": true,
@@ -20,6 +21,7 @@
 					"gus": true,
 					"sb16": true,
 					"internal_speaker": true
+				}
 			},
 			"info": {
 				"type": "game_demo",
@@ -33,6 +35,39 @@
 				"series": "Jazz Jackrabbit",
 				"series_index": "1",
 			}
+		},
+		"Supaplex (Speed Fix 6.3)": {
+			"detection": {
+				"app_name": "spfix63.exe",
+			},
+			"compat": {
+				"min_cpu": "8088",
+				"min_dos": 3,
+				"min_ram_kb": 512,
+				"min_graphics": "ega",
+				"input": {
+					"joystick": true,
+					"keyboard_required": true,
+					"mouse": true,
+				}
+				"sound": {
+					"adlib": true,
+					"sb16": true,
+					"internal_speaker": true,
+					"mt32": true,
+				}
+			},
+			"info": {
+				"type": "game",
+				"genre": "Maze",
+				"subgenre": "Digging",
+				"min_players": 1,
+				"max_players": 1,
+				"developer": "Think!Ware Development",
+				"publisher": "Digital Integration",
+				"release_date": "1991",
+			},
+			"comment": "Original release did not run at correct speed on 286 or higher"
 		}
 	}
 }
