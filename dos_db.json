@@ -4,7 +4,7 @@
 		"Jazz Jackrabbit (shareware)": {
 			"detection": {
 				"exe_name": "jazz.exe"
-			}
+			},
 			"compat": {
 				"min_cpu": "386",
 				"recommended_cpu": "486",
@@ -15,8 +15,8 @@
 				"input": {
 					"joystick": true,
 					"keyboard_required": true,
-					"gravis_gamepad": true,
-				}
+					"gravis_gamepad": true
+				},
 				"sound": {
 					"gus": true,
 					"sb16": true,
@@ -33,12 +33,12 @@
 				"developer": "Epic Games",
 				"publisher": "Epic Games",
 				"series": "Jazz Jackrabbit",
-				"series_index": "1",
+				"series_index": "1"
 			}
 		},
 		"Supaplex (Speed Fix 6.3)": {
 			"detection": {
-				"app_name": "spfix63.exe",
+				"app_name": "spfix63.exe"
 			},
 			"compat": {
 				"min_cpu": "8088",
@@ -48,13 +48,13 @@
 				"input": {
 					"joystick": true,
 					"keyboard_required": true,
-					"mouse": true,
-				}
+					"mouse": true
+				},
 				"sound": {
 					"adlib": true,
 					"sb16": true,
 					"internal_speaker": true,
-					"mt32": true,
+					"mt32": true
 				}
 			},
 			"info": {
@@ -65,7 +65,7 @@
 				"max_players": 1,
 				"developer": "Think!Ware Development",
 				"publisher": "Digital Integration",
-				"release_date": "1991",
+				"release_date": "1991"
 			},
 			"comment": "Original release did not run at correct speed on 286 or higher"
 		}
