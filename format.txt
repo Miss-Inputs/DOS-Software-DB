@@ -14,14 +14,14 @@
 				"recommended_graphics": "",
 				"max_graphics": "",
 				"min_dos": 5,
-				"max_dos": 6.22
+				"max_dos": 6.22,
 				"input": {
 					"joystick": true,
 					"keyboard_required": true,
 					"gravis_gamepad": true,
 					"thrustmaster": true,
 					"mouse": true
-				}
+				},
 				"sound": {
 					"adlib": true,
 					"gus": true,
@@ -30,7 +30,7 @@
 					"disney": true,
 					"mt32": true
 				}
-			}
+			},
 			"info": {
 				"type": "game, game_demo, app, app_demo, demoscene, etc",
 				"genre": "",
@@ -41,9 +41,9 @@
 				"developer": "",
 				"publisher": "",
 				"series": "Examples",
-				"series_index": "1",
-			}
-			"comment": "This should be ignored, it's just here to put comments because you can't do //comment in JSON",
+				"series_index": "1"
+			},
+			"comment": "This should be ignored, it's just here to put comments because you can't do //comment in JSON"
 		},
 		"clone": {
 			"parent": "name"
