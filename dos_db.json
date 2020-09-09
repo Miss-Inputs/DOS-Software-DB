@@ -1,7 +1,7 @@
 {
 	"version": "v1.0",
 	"games": {
-		"Jazz Jackrabbit (shareware)": {
+		"Jazz Jackrabbit": {
 			"detection": {
 				"exe_name": "jazz.exe"
 			},
@@ -24,7 +24,7 @@
 				}
 			},
 			"info": {
-				"type": "game_demo",
+				"type": "game",
 				"genre": "Platform",
 				"subgenre": "Run & Gun",
 				"min_players": 1,
@@ -143,6 +143,131 @@
 				"release_date": "1993-01-31",
 				"developer": "Apogee Software",
 				"publisher": "Apogee Software"
+			}
+		},
+		"Rayman": {
+			"detection": {
+				"exe_name": "rayman.exe"
+			},
+			"compat": {
+				"min_cpu": "486",
+				"min_graphics": "vga",
+				"recommended_graphics": "svga",
+				"min_dos": 5,
+				"min_ram_kb": 4096,
+				"input": {
+					"joystick": true,
+					"keyboard_required": true,
+					"gravis_gamepad": true
+				},
+				"sound": {
+					"adlib": true,
+					"sb16": true
+				}
+			},
+			"info": {
+				"type": "game",
+				"genre": "Platform",
+				"subgenre": "2D",
+				"min_players": 1,
+				"max_players": 1,
+				"release_date": "1996-04-30",
+				"developer": "Ubisoft",
+				"publisher": "Ubisoft",
+				"series": "Rayman",
+				"series_index": "1"
+			}
+		},
+		"One Must Fall: 2097": {
+			"detection": {
+				"exe_name": "omf.exe"
+			},
+			"compat": {
+				"min_cpu": "386",
+				"min_graphics": "vga",
+				"min_dos": 4,
+				"min_ram_kb": 4096,
+				"uses_ipx": true,
+				"input": {
+					"joystick": true,
+					"keyboard_required": false
+				},
+				"sound": {
+					"gus": true,
+					"sb16": true
+				}
+			},
+			"info": {
+				"type": "game",
+				"genre": "Fighting",
+				"subgenre": "2D",
+				"min_players": 1,
+				"max_players": 2,
+				"release_date": "1994",
+				"developer": "Diversions Entertainment",
+				"publisher": "Epic Games",
+				"series": "One Must Fall",
+				"series_index": "2097"
+			}
+		},
+		"God of Thunder": {
+			"detection": {
+				"exe_name": "got.exe"
+			},
+			"compat": {
+				"min_cpu": "286",
+				"min_graphics": "vga",
+				"min_dos": 3,
+				"min_ram_kb": 640,
+				"input": {
+					"joystick": true,
+					"keyboard_required": true
+				},
+				"sound": {
+					"adlib": true,
+					"sb16": true
+				}
+			},
+			"info": {
+				"type": "game",
+				"genre": "Action-Adventure",
+				"subgenre": "2D",
+				"min_players": 1,
+				"max_players": 1,
+				"release_date": "1993",
+				"developer": "Adept Software",
+				"publisher": "Software Creations"
+			}
+		},
+		"Aladdin": {
+			"detection": {
+				"exe_name": "aladdin.exe"
+			},
+			"compat": {
+				"min_cpu": "386dx",
+				"min_graphics": "vga",
+				"min_dos": 3.3,
+				"recommended_dos": 6.22,
+				"min_ram_kb": 570,
+				"input": {
+					"joystick": true,
+					"keyboard_required": true,
+					"gravis_gamepad": true
+				},
+				"sound": {
+					"sb16": true
+				}
+			},
+			"info": {
+				"type": "game",
+				"genre": "Platform",
+				"subgenre": "2D",
+				"min_players": 1,
+				"max_players": 1,
+				"release_date": "1994",
+				"developer": "Virgin",
+				"publisher": "Disney",
+				"aka": ["Disney's Aladdin"]
 			}
 		}
 	}
