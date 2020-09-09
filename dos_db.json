@@ -175,7 +175,11 @@
 				"developer": "Ubisoft",
 				"publisher": "Ubisoft",
 				"series": "Rayman",
-				"series_index": "1"
+				"series_index": "1",
+				"port_of": {
+					"platform": "Jaguar",
+					"mame_sl": "jaguar/rayman"
+				}
 			}
 		},
 		"One Must Fall: 2097": {
@@ -267,7 +271,43 @@
 				"release_date": "1994",
 				"developer": "Virgin",
 				"publisher": "Disney",
-				"aka": ["Disney's Aladdin"]
+				"aka": ["Disney's Aladdin"],
+				"port_of":{
+					"platform": "Mega Drive",
+					"mame_sl": "megadriv/aladdin"
+				}
+			}
+		},
+		"Cool Spot": {
+			"detection": {
+				"exe_name": "spot.exe"
+			},
+			"compat": {
+				"min_cpu": "386sx",
+				"min_graphics": "vga",
+				"min_dos": 5,
+				"input": {
+					"joystick": true
+				},
+				"sound": {
+					"adlib": true,
+					"sb16": true,
+					"internal_speaker": true
+				}
+			},
+			"info": {
+				"type": "game",
+				"genre": "Platform",
+				"subgenre": "2D",
+				"min_players": 1,
+				"max_players": 1,
+				"release_date": "1994",
+				"developer": "Virgin",
+				"publisher": "Virgin",
+				"port_of": {
+					"platform": "Mega Drive",
+					"mame_sl": "megadriv/coolspot"
+				}
 			}
 		}
 	}

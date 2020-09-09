@@ -45,7 +45,12 @@
 				"publisher": "",
 				"series": "Examples",
 				"series_index": "1",
-				"aka": ["foo", "bar"]
+				"aka": ["foo", "bar"],
+				"port_of": {
+					"platform": "blah",
+					"mame_romset": "asdf",
+					"mame_sl": "asdf"
+				}
 			},
 			"comment": "This should be ignored, it's just here to put comments because you can't do //comment in JSON"
 		},
