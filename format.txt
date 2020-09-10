@@ -1,6 +1,6 @@
 {
 	"version": "1.0",
-	games: {
+	"apps": {
 		"name": {
 			"detection": {
 				"exe_name": "exe.exe"

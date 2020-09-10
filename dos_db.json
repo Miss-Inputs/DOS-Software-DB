@@ -1,74 +1,6 @@
 {
 	"version": "v1.0",
-	"games": {
-		"Jazz Jackrabbit": {
-			"detection": {
-				"exe_name": "jazz.exe"
-			},
-			"compat": {
-				"min_cpu": "386",
-				"recommended_cpu": "486",
-				"max_cpu": "pentium",
-				"min_graphics": "vga",
-				"min_dos": 5,
-				"min_ram_kb": 4096,
-				"input": {
-					"joystick": true,
-					"keyboard_required": true,
-					"gravis_gamepad": true
-				},
-				"sound": {
-					"gus": true,
-					"sb16": true,
-					"internal_speaker": true
-				}
-			},
-			"info": {
-				"type": "game",
-				"genre": "Platform",
-				"subgenre": "Run & Gun",
-				"min_players": 1,
-				"max_players": 1,
-				"release_date": "1994-07-30",
-				"developer": "Epic Games",
-				"publisher": "Epic Games",
-				"series": "Jazz Jackrabbit",
-				"series_index": "1"
-			}
-		},
-		"Supaplex (Speed Fix 6.3)": {
-			"detection": {
-				"app_name": "spfix63.exe"
-			},
-			"compat": {
-				"min_dos": 3,
-				"min_ram_kb": 512,
-				"min_graphics": "ega",
-				"recommended_graphics": "vga",
-				"input": {
-					"joystick": true,
-					"keyboard_required": true,
-					"mouse": true
-				},
-				"sound": {
-					"adlib": true,
-					"sb16": true,
-					"internal_speaker": true,
-					"mt32": true
-				}
-			},
-			"info": {
-				"type": "game",
-				"genre": "Maze",
-				"subgenre": "Digging",
-				"min_players": 1,
-				"max_players": 1,
-				"developer": "Think!Ware Development",
-				"publisher": "Digital Integration",
-				"release_date": "1991"
-			},
-			"comment": "Original release did not run at correct speed on 286 or higher"
-		},
+	"apps": {
 		"8088 Domination": {
 			"detection": {
 				"exe_name": "8088dom.bat"
@@ -85,162 +17,6 @@
 				"release_date": "2014-06",
 				"developer": "Trixter",
 				"publisher": "Hornet"
-			}
-		},
-		"Raiders of the Forbidden Mine": {
-			"detection": {
-				"exe_name": "raiders.exe"
-			},
-			"compat": {
-				"for_xt": true,
-				"min_graphics": "cga",
-				"input": {
-					"keyboard_required": true
-				},
-				"sound": {
-					"internal_speaker": true
-				}
-			},
-			"info": {
-				"type": "game",
-				"genre": "Maze",
-				"subgenre": "Digging",
-				"min_players": 1,
-				"max_players": 1,
-				"release_date": "1986",
-				"developer": "Keypunch Software",
-				"publisher": "Apogee Software",
-				"aka": ["Diamond Digger", "Gold Miner"]
-			},
-			"comment": "Part of Adventure Fun-Pak"
-		},
-		"Major Stryker": {
-			"detection": {
-				"exe_name": "stryker.exe"
-			},
-			"compat": {
-				"min_cpu": "286",
-				"recommended_cpu": "386",
-				"min_graphics": "ega",
-				"min_ram_kb": 640,
-				"min_dos": 3,
-				"input": {
-					"joystick": true,
-					"keyboard_required": true
-				},
-				"sound": {
-					"adlib": true,
-					"sb16": true,
-					"internal_speaker": true
-				}
-			},
-			"info": {
-				"type": "game",
-				"genre": "Shooter",
-				"subgenre": "Vertical",
-				"min_players": 1,
-				"max_players": 1,
-				"release_date": "1993-01-31",
-				"developer": "Apogee Software",
-				"publisher": "Apogee Software"
-			}
-		},
-		"Rayman": {
-			"detection": {
-				"exe_name": "rayman.exe"
-			},
-			"compat": {
-				"min_cpu": "486",
-				"min_graphics": "vga",
-				"recommended_graphics": "svga",
-				"min_dos": 5,
-				"min_ram_kb": 4096,
-				"input": {
-					"joystick": true,
-					"keyboard_required": true,
-					"gravis_gamepad": true
-				},
-				"sound": {
-					"adlib": true,
-					"sb16": true
-				}
-			},
-			"info": {
-				"type": "game",
-				"genre": "Platform",
-				"subgenre": "2D",
-				"min_players": 1,
-				"max_players": 1,
-				"release_date": "1996-04-30",
-				"developer": "Ubisoft",
-				"publisher": "Ubisoft",
-				"series": "Rayman",
-				"series_index": "1",
-				"port_of": {
-					"platform": "Jaguar",
-					"mame_sl": "jaguar/rayman"
-				}
-			}
-		},
-		"One Must Fall: 2097": {
-			"detection": {
-				"exe_name": "omf.exe"
-			},
-			"compat": {
-				"min_cpu": "386",
-				"min_graphics": "vga",
-				"min_dos": 4,
-				"min_ram_kb": 4096,
-				"uses_ipx": true,
-				"input": {
-					"joystick": true,
-					"keyboard_required": false
-				},
-				"sound": {
-					"gus": true,
-					"sb16": true
-				}
-			},
-			"info": {
-				"type": "game",
-				"genre": "Fighting",
-				"subgenre": "2D",
-				"min_players": 1,
-				"max_players": 2,
-				"release_date": "1994",
-				"developer": "Diversions Entertainment",
-				"publisher": "Epic Games",
-				"series": "One Must Fall",
-				"series_index": "2097"
-			}
-		},
-		"God of Thunder": {
-			"detection": {
-				"exe_name": "got.exe"
-			},
-			"compat": {
-				"min_cpu": "286",
-				"min_graphics": "vga",
-				"min_dos": 3,
-				"min_ram_kb": 640,
-				"input": {
-					"joystick": true,
-					"keyboard_required": true
-				},
-				"sound": {
-					"adlib": true,
-					"sb16": true
-				}
-			},
-			"info": {
-				"type": "game",
-				"genre": "Action-Adventure",
-				"subgenre": "2D",
-				"min_players": 1,
-				"max_players": 1,
-				"release_date": "1993",
-				"developer": "Adept Software",
-				"publisher": "Software Creations"
 			}
 		},
 		"Aladdin": {
@@ -309,6 +85,230 @@
 					"mame_sl": "megadriv/coolspot"
 				}
 			}
+		},
+		"God of Thunder": {
+			"detection": {
+				"exe_name": "got.exe"
+			},
+			"compat": {
+				"min_cpu": "286",
+				"min_graphics": "vga",
+				"min_dos": 3,
+				"min_ram_kb": 640,
+				"input": {
+					"joystick": true,
+					"keyboard_required": true
+				},
+				"sound": {
+					"adlib": true,
+					"sb16": true
+				}
+			},
+			"info": {
+				"type": "game",
+				"genre": "Action-Adventure",
+				"subgenre": "2D",
+				"min_players": 1,
+				"max_players": 1,
+				"release_date": "1993",
+				"developer": "Adept Software",
+				"publisher": "Software Creations"
+			}
+		},
+		"Jazz Jackrabbit": {
+			"detection": {
+				"exe_name": "jazz.exe"
+			},
+			"compat": {
+				"min_cpu": "386",
+				"recommended_cpu": "486",
+				"max_cpu": "pentium",
+				"min_graphics": "vga",
+				"min_dos": 5,
+				"min_ram_kb": 4096,
+				"input": {
+					"joystick": true,
+					"keyboard_required": true,
+					"gravis_gamepad": true
+				},
+				"sound": {
+					"gus": true,
+					"sb16": true,
+					"internal_speaker": true
+				}
+			},
+			"info": {
+				"type": "game",
+				"genre": "Platform",
+				"subgenre": "Run & Gun",
+				"min_players": 1,
+				"max_players": 1,
+				"release_date": "1994-07-30",
+				"developer": "Epic Games",
+				"publisher": "Epic Games",
+				"series": "Jazz Jackrabbit",
+				"series_index": "1"
+			}
+		},
+		"Major Stryker": {
+			"detection": {
+				"exe_name": "stryker.exe"
+			},
+			"compat": {
+				"min_cpu": "286",
+				"recommended_cpu": "386",
+				"min_graphics": "ega",
+				"min_ram_kb": 640,
+				"min_dos": 3,
+				"input": {
+					"joystick": true,
+					"keyboard_required": true
+				},
+				"sound": {
+					"adlib": true,
+					"sb16": true,
+					"internal_speaker": true
+				}
+			},
+			"info": {
+				"type": "game",
+				"genre": "Shooter",
+				"subgenre": "Vertical",
+				"min_players": 1,
+				"max_players": 1,
+				"release_date": "1993-01-31",
+				"developer": "Apogee Software",
+				"publisher": "Apogee Software"
+			}
+		},
+		"One Must Fall: 2097": {
+			"detection": {
+				"exe_name": "omf.exe"
+			},
+			"compat": {
+				"min_cpu": "386",
+				"min_graphics": "vga",
+				"min_dos": 4,
+				"min_ram_kb": 4096,
+				"uses_ipx": true,
+				"input": {
+					"joystick": true,
+					"keyboard_required": false
+				},
+				"sound": {
+					"gus": true,
+					"sb16": true
+				}
+			},
+			"info": {
+				"type": "game",
+				"genre": "Fighting",
+				"subgenre": "2D",
+				"min_players": 1,
+				"max_players": 2,
+				"release_date": "1994",
+				"developer": "Diversions Entertainment",
+				"publisher": "Epic Games",
+				"series": "One Must Fall",
+				"series_index": "2097"
+			}
+		},
+		"Raiders of the Forbidden Mine": {
+			"detection": {
+				"exe_name": "raiders.exe"
+			},
+			"compat": {
+				"for_xt": true,
+				"min_graphics": "cga",
+				"input": {
+					"keyboard_required": true
+				},
+				"sound": {
+					"internal_speaker": true
+				}
+			},
+			"info": {
+				"type": "game",
+				"genre": "Maze",
+				"subgenre": "Digging",
+				"min_players": 1,
+				"max_players": 1,
+				"release_date": "1986",
+				"developer": "Keypunch Software",
+				"publisher": "Apogee Software",
+				"aka": ["Diamond Digger", "Gold Miner"]
+			},
+			"comment": "Part of Adventure Fun-Pak"
+		},
+		"Rayman": {
+			"detection": {
+				"exe_name": "rayman.exe"
+			},
+			"compat": {
+				"min_cpu": "486",
+				"min_graphics": "vga",
+				"recommended_graphics": "svga",
+				"min_dos": 5,
+				"min_ram_kb": 4096,
+				"input": {
+					"joystick": true,
+					"keyboard_required": true,
+					"gravis_gamepad": true
+				},
+				"sound": {
+					"adlib": true,
+					"sb16": true
+				}
+			},
+			"info": {
+				"type": "game",
+				"genre": "Platform",
+				"subgenre": "2D",
+				"min_players": 1,
+				"max_players": 1,
+				"release_date": "1996-04-30",
+				"developer": "Ubisoft",
+				"publisher": "Ubisoft",
+				"series": "Rayman",
+				"series_index": "1",
+				"port_of": {
+					"platform": "Jaguar",
+					"mame_sl": "jaguar/rayman"
+				}
+			}
+		},
+		"Supaplex (Speed Fix 6.3)": {
+			"detection": {
+				"app_name": "spfix63.exe"
+			},
+			"compat": {
+				"min_dos": 3,
+				"min_ram_kb": 512,
+				"min_graphics": "ega",
+				"recommended_graphics": "vga",
+				"input": {
+					"joystick": true,
+					"keyboard_required": true,
+					"mouse": true
+				},
+				"sound": {
+					"adlib": true,
+					"sb16": true,
+					"internal_speaker": true,
+					"mt32": true
+				}
+			},
+			"info": {
+				"type": "game",
+				"genre": "Maze",
+				"subgenre": "Digging",
+				"min_players": 1,
+				"max_players": 1,
+				"developer": "Think!Ware Development",
+				"publisher": "Digital Integration",
+				"release_date": "1991"
+			},
+			"comment": "Original release did not run at correct speed on 286 or higher"
 		}
 	}
 }
