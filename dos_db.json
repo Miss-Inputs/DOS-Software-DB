@@ -54,6 +54,53 @@
 				}
 			}
 		},
+		"Arctic Adventure Episode 1": {
+			"detection": {
+				"exe_name": "aa1.exe"
+			},
+			"compat": {
+				"for_xt": true,
+				"min_cpu": "8088",
+				"min_graphics": "cga",
+				"min_dos": 3,
+				"min_ram_kb": 384,
+				"input": {
+					"joystick": true,
+					"keyboard_required": true
+				},
+				"sound": {
+					"internal_speaker": true
+				}
+			},
+			"info": {
+				"type": "game",
+				"genre": "Platform",
+				"subgenre": "2D",
+				"min_players": 1,
+				"max_players": 1,
+				"release_date": "1991",
+				"developer": "Apogee Software",
+				"publisher": "Apogee Software"
+			}
+		},
+		"Arctic Adventure Episode 2": {
+			"parent": "Arctic Adventure Episode 1",
+			"detection": {
+				"exe_name": "aa2.exe"
+			}
+		},
+		"Arctic Adventure Episode 3": {
+			"parent": "Arctic Adventure Episode 1",
+			"detection": {
+				"exe_name": "aa3.exe"
+			}
+		},
+		"Arctic Adventure Episode 4": {
+			"parent": "Arctic Adventure Episode 1",
+			"detection": {
+				"exe_name": "aa4.exe"
+			}
+		},
 		"Cool Spot": {
 			"detection": {
 				"exe_name": "spot.exe"
@@ -84,6 +131,39 @@
 					"platform": "Mega Drive",
 					"mame_sl": "megadriv/coolspot"
 				}
+			}
+		},
+		"Duke Nukem Episode 1: Shrapnel City": {
+			"detection": {
+				"exe_name": "dn1.exe"
+			},
+			"compat": {
+				"min_cpu": "8088",
+				"min_graphics": "ega",
+				"recommended_graphics": "vga",
+				"min_dos": 3.2,
+				"min_ram_kb": 640,
+				"input": {
+					"joystick": true,
+					"keyboard_required": true,
+					"mouse": true
+				},
+				"sound": {
+					"internal_speaker": true
+				}
+			},
+			"info": {
+				"type": "game",
+				"genre": "Platform",
+				"subgenre": "2D",
+				"min_players": 1,
+				"max_players": 1,
+				"release_date": "1991-07-01",
+				"developer": "Apogee Software",
+				"publisher": "Apogee Software",
+				"series": "Duke Nukem",
+				"series_index": "1 Episode 1",
+				"aka": ["Duke Nukum Episode 1"]
 			}
 		},
 		"God of Thunder": {
