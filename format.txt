@@ -24,14 +24,7 @@
 					"thrustmaster": true,
 					"mouse": true
 				},
-				"sound": {
-					"adlib": true,
-					"gus": true,
-					"sb16": true,
-					"internal_speaker": true,
-					"disney": true,
-					"mt32": true
-				}
+				"sound": ["adlib", "gus", "sb16", "internal_speaker", "disney", "mt32"]
 			},
 			"info": {
 				"type": "game, game_demo, app, app_demo, demoscene, etc",

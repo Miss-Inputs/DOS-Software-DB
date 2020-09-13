@@ -8,9 +8,7 @@
 			"compat": {
 				"supported_graphics": ["cga"],
 				"will_break_on_unsupported_graphics": true,
-				"sound": {
-					"sb16": true
-				}
+				"sound": ["sb16"]
 			},
 			"info": {
 				"type": "demoscene",
@@ -34,9 +32,7 @@
 					"keyboard_required": true,
 					"gravis_gamepad": true
 				},
-				"sound": {
-					"sb16": true
-				}
+				"sound": ["sb16"]
 			},
 			"info": {
 				"type": "game",
@@ -68,9 +64,7 @@
 					"joystick": true,
 					"keyboard_required": true
 				},
-				"sound": {
-					"internal_speaker": true
-				}
+				"sound": ["internal_speaker"]
 			},
 			"info": {
 				"type": "game",
@@ -112,11 +106,7 @@
 				"input": {
 					"joystick": true
 				},
-				"sound": {
-					"adlib": true,
-					"sb16": true,
-					"internal_speaker": true
-				}
+				"sound": ["adlib", "sb16", "internal_speaker"]
 			},
 			"info": {
 				"type": "game",
@@ -147,9 +137,7 @@
 					"keyboard_required": true,
 					"mouse": true
 				},
-				"sound": {
-					"internal_speaker": true
-				}
+				"sound": ["internal_speaker"]
 			},
 			"info": {
 				"type": "game",
@@ -178,10 +166,7 @@
 					"joystick": true,
 					"keyboard_required": true
 				},
-				"sound": {
-					"adlib": true,
-					"sb16": true
-				}
+				"sound": ["adlib", "sb16"]
 			},
 			"info": {
 				"type": "game",
@@ -210,11 +195,7 @@
 					"keyboard_required": true,
 					"gravis_gamepad": true
 				},
-				"sound": {
-					"gus": true,
-					"sb16": true,
-					"internal_speaker": true
-				}
+				"sound": ["gus", "sb16", "internal_speaker"]
 			},
 			"info": {
 				"type": "game",
@@ -243,11 +224,7 @@
 					"joystick": true,
 					"keyboard_required": true
 				},
-				"sound": {
-					"adlib": true,
-					"sb16": true,
-					"internal_speaker": true
-				}
+				"sound": ["adlib", "sb16", "internal_speaker"]
 			},
 			"info": {
 				"type": "game",
@@ -274,10 +251,7 @@
 					"joystick": true,
 					"keyboard_required": false
 				},
-				"sound": {
-					"gus": true,
-					"sb16": true
-				}
+				"sound": ["gus", "sb16"]
 			},
 			"info": {
 				"type": "game",
@@ -302,9 +276,7 @@
 				"input": {
 					"keyboard_required": true
 				},
-				"sound": {
-					"internal_speaker": true
-				}
+				"sound": ["internal_speaker"]
 			},
 			"info": {
 				"type": "game",
@@ -333,10 +305,7 @@
 					"keyboard_required": true,
 					"gravis_gamepad": true
 				},
-				"sound": {
-					"adlib": true,
-					"sb16": true
-				}
+				"sound": ["adlib", "sb16"]
 			},
 			"info": {
 				"type": "game",
@@ -368,12 +337,7 @@
 					"keyboard_required": true,
 					"mouse": true
 				},
-				"sound": {
-					"adlib": true,
-					"sb16": true,
-					"internal_speaker": true,
-					"mt32": true
-				}
+				"sound": ["adlib", "sb16", "internal_speaker", "mt32"]
 			},
 			"info": {
 				"type": "game",
