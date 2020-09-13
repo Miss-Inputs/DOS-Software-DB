@@ -6,8 +6,8 @@
 				"exe_name": "8088dom.bat"
 			},
 			"compat": {
-				"min_graphics": "cga",
-				"max_graphics": "cga",
+				"supported_graphics": ["cga"],
+				"will_break_on_unsupported_graphics": true,
 				"sound": {
 					"sb16": true
 				}
@@ -25,7 +25,7 @@
 			},
 			"compat": {
 				"min_cpu": "386dx",
-				"min_graphics": "vga",
+				"supported_graphics": ["vga"],
 				"min_dos": 3.3,
 				"recommended_dos": 6.22,
 				"min_ram_kb": 570,
@@ -61,7 +61,7 @@
 			"compat": {
 				"for_xt": true,
 				"min_cpu": "8088",
-				"min_graphics": "cga",
+				"supported_graphics": ["cga"],
 				"min_dos": 3,
 				"min_ram_kb": 384,
 				"input": {
@@ -107,7 +107,7 @@
 			},
 			"compat": {
 				"min_cpu": "386sx",
-				"min_graphics": "vga",
+				"supported_graphics": ["vga"],
 				"min_dos": 5,
 				"input": {
 					"joystick": true
@@ -139,8 +139,7 @@
 			},
 			"compat": {
 				"min_cpu": "8088",
-				"min_graphics": "ega",
-				"recommended_graphics": "vga",
+				"supported_graphics": ["ega", "vga"],
 				"min_dos": 3.2,
 				"min_ram_kb": 640,
 				"input": {
@@ -172,7 +171,7 @@
 			},
 			"compat": {
 				"min_cpu": "286",
-				"min_graphics": "vga",
+				"supported_graphics": ["vga"],
 				"min_dos": 3,
 				"min_ram_kb": 640,
 				"input": {
@@ -203,7 +202,7 @@
 				"min_cpu": "386",
 				"recommended_cpu": "486",
 				"max_cpu": "pentium",
-				"min_graphics": "vga",
+				"supported_graphics": ["vga"],
 				"min_dos": 5,
 				"min_ram_kb": 4096,
 				"input": {
@@ -237,7 +236,7 @@
 			"compat": {
 				"min_cpu": "286",
 				"recommended_cpu": "386",
-				"min_graphics": "ega",
+				"supported_graphics": ["ega"],
 				"min_ram_kb": 640,
 				"min_dos": 3,
 				"input": {
@@ -267,7 +266,7 @@
 			},
 			"compat": {
 				"min_cpu": "386",
-				"min_graphics": "vga",
+				"supported_graphics": ["vga"],
 				"min_dos": 4,
 				"min_ram_kb": 4096,
 				"uses_ipx": true,
@@ -299,7 +298,7 @@
 			},
 			"compat": {
 				"for_xt": true,
-				"min_graphics": "cga",
+				"supported_graphics": ["cga"],
 				"input": {
 					"keyboard_required": true
 				},
@@ -326,8 +325,7 @@
 			},
 			"compat": {
 				"min_cpu": "486",
-				"min_graphics": "vga",
-				"recommended_graphics": "svga",
+				"supported_graphics": ["vga", "svga"],
 				"min_dos": 5,
 				"min_ram_kb": 4096,
 				"input": {
@@ -364,8 +362,7 @@
 			"compat": {
 				"min_dos": 3,
 				"min_ram_kb": 512,
-				"min_graphics": "ega",
-				"recommended_graphics": "vga",
+				"supported_graphics": ["ega", "vga"],
 				"input": {
 					"joystick": true,
 					"keyboard_required": true,
