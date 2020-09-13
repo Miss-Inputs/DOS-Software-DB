@@ -27,11 +27,7 @@
 				"min_dos": 3.3,
 				"recommended_dos": 6.22,
 				"min_ram_kb": 570,
-				"input": {
-					"joystick": true,
-					"keyboard_required": true,
-					"gravis_gamepad": true
-				},
+				"input": ["joystick", "gravis_gamepad"],
 				"sound": ["sb16"]
 			},
 			"info": {
@@ -60,10 +56,7 @@
 				"supported_graphics": ["cga"],
 				"min_dos": 3,
 				"min_ram_kb": 384,
-				"input": {
-					"joystick": true,
-					"keyboard_required": true
-				},
+				"input": ["joystick"],
 				"sound": ["internal_speaker"]
 			},
 			"info": {
@@ -103,9 +96,7 @@
 				"min_cpu": "386sx",
 				"supported_graphics": ["vga"],
 				"min_dos": 5,
-				"input": {
-					"joystick": true
-				},
+				"input": ["joystick"],
 				"sound": ["adlib", "sb16", "internal_speaker"]
 			},
 			"info": {
@@ -132,11 +123,7 @@
 				"supported_graphics": ["ega", "vga"],
 				"min_dos": 3.2,
 				"min_ram_kb": 640,
-				"input": {
-					"joystick": true,
-					"keyboard_required": true,
-					"mouse": true
-				},
+				"input": ["joystick", "mouse"],
 				"sound": ["internal_speaker"]
 			},
 			"info": {
@@ -162,10 +149,7 @@
 				"supported_graphics": ["vga"],
 				"min_dos": 3,
 				"min_ram_kb": 640,
-				"input": {
-					"joystick": true,
-					"keyboard_required": true
-				},
+				"input": ["joystick"],
 				"sound": ["adlib", "sb16"]
 			},
 			"info": {
@@ -190,11 +174,7 @@
 				"supported_graphics": ["vga"],
 				"min_dos": 5,
 				"min_ram_kb": 4096,
-				"input": {
-					"joystick": true,
-					"keyboard_required": true,
-					"gravis_gamepad": true
-				},
+				"input": ["joystick", "gravis_gamepad"],
 				"sound": ["gus", "sb16", "internal_speaker"]
 			},
 			"info": {
@@ -220,10 +200,7 @@
 				"supported_graphics": ["ega"],
 				"min_ram_kb": 640,
 				"min_dos": 3,
-				"input": {
-					"joystick": true,
-					"keyboard_required": true
-				},
+				"input": ["joystick"],
 				"sound": ["adlib", "sb16", "internal_speaker"]
 			},
 			"info": {
@@ -247,10 +224,7 @@
 				"min_dos": 4,
 				"min_ram_kb": 4096,
 				"uses_ipx": true,
-				"input": {
-					"joystick": true,
-					"keyboard_required": false
-				},
+				"input": ["joystick"],
 				"sound": ["gus", "sb16"]
 			},
 			"info": {
@@ -273,9 +247,6 @@
 			"compat": {
 				"for_xt": true,
 				"supported_graphics": ["cga"],
-				"input": {
-					"keyboard_required": true
-				},
 				"sound": ["internal_speaker"]
 			},
 			"info": {
@@ -300,11 +271,7 @@
 				"supported_graphics": ["vga", "svga"],
 				"min_dos": 5,
 				"min_ram_kb": 4096,
-				"input": {
-					"joystick": true,
-					"keyboard_required": true,
-					"gravis_gamepad": true
-				},
+				"input": ["joystick", "gravis_gamepad"],
 				"sound": ["adlib", "sb16"]
 			},
 			"info": {
@@ -332,11 +299,7 @@
 				"min_dos": 3,
 				"min_ram_kb": 512,
 				"supported_graphics": ["ega", "vga"],
-				"input": {
-					"joystick": true,
-					"keyboard_required": true,
-					"mouse": true
-				},
+				"input": ["joystick", "mouse"],
 				"sound": ["adlib", "sb16", "internal_speaker", "mt32"]
 			},
 			"info": {

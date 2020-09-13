@@ -17,13 +17,8 @@
 				"recommended_dos": 6.22,
 				"min_ram_kb": 1024,
 				"uses_ipx": true,
-				"input": {
-					"joystick": true,
-					"keyboard_required": true,
-					"gravis_gamepad": true,
-					"thrustmaster": true,
-					"mouse": true
-				},
+				"input": ["joystick", "gravis_gamepad", "thrustmaster", "mouse"],
+				"joystick_full_support": false,
 				"sound": ["adlib", "gus", "sb16", "internal_speaker", "disney", "mt32"]
 			},
 			"info": {
